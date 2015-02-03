@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="Idle_Farm.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="1000" d:DesignWidth="1000">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Button x:Name="Main_Button" Content="" HorizontalAlignment="Center" Height="200" Margin="0,0,0,0" VerticalAlignment="Center" Width="200" ClickMode="Press" Click="Click_Check_Click" ToolTipService.ToolTip="press for fun" Cursor="Hand"/>
+        <TextBlock x:Name="textBlockTest" HorizontalAlignment="Left" Height="100" Margin="367,612,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="361"/>
+        <Button x:Name="Farmer" Content="Buy a Farmer" HorizontalAlignment="Left" Height="100" Margin="30,300,0,0" VerticalAlignment="Top" Width="200" Click="Add_Farmer" IsEnabled="False"/>
+        <Button x:Name="Hoe" Content="Buy a Hoe" HorizontalAlignment="Left" Height="100" Margin="30,450,0,0" VerticalAlignment="Top" Width="200" Click="Add_Hoe" IsEnabled="False"/>
+        <Button x:Name="Market" Content="Build a Market" HorizontalAlignment="Left" Height="100" Margin="30,600,0,0" VerticalAlignment="Top" Width="200" Click="Add_Market" IsEnabled="False"/>
+
+    </Grid>
+</UserControl>
